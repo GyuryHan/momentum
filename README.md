@@ -1,5 +1,8 @@
 # momentum
-날씨&위치 API를 제공하며 사용자의 이름과 todolist를 저장합니다.
+날씨&위치 API를 제공
+사용자이름, todolist 저장
+현재 시간 표기
+<hr>
 
 <h3 align="center"> momentum 메인화면입니다.
 <h4 align="center"> [오른쪽 상단에 현재 온도와 사용자 위치를 표시합니다.]
