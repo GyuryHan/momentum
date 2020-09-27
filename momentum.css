@@ -36,6 +36,16 @@ body {
 	margin-bottom: 0;
 }
 
+.js-form input {
+	width: 390px;
+	height: 40px;
+	font-size: 20px;
+	border-radius: 5px;
+	outline: none;
+	text-align: center;
+	border: 0;
+}
+
 .js-greetings {
 	margin-top: 0;
 	font-size: 40px;
