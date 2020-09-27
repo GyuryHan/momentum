@@ -1,4 +1,5 @@
 # momentum
+## Vanilla JavaScript로 구현
 *날씨&위치 API 제공<br>
 *사용자이름, todolist 저장<br>
 *현재 시간 표기
