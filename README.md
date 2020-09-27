@@ -2,6 +2,7 @@
 날씨&위치 API를 제공하며 사용자의 이름과 todolist를 저장합니다.
 
 <h3 align="center"> momentum 메인화면입니다.
+<h2> 오른쪽 상단에 현재 온도와 사용자 위치를 표시합니다.
 <hr> 
   
 ![main](https://user-images.githubusercontent.com/66048317/94375223-216f8b80-014d-11eb-837a-be38963e9008.jpg)
