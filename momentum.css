@@ -1,0 +1,113 @@
+.btn {
+	cursor: pointer;
+}
+
+html {
+	height: 90%;
+	margin: 0;
+}
+
+body {
+	background-color: #2c3e50;
+	color: #ffffff;
+	height: 90%;
+}
+
+.form-contents {
+	height: 100%;
+}
+
+.box-top {
+	text-align: right;
+	margin: 20px;
+	font-size: 35px;
+}
+
+.box-contents {
+	height: 80%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.js-clock h1 {
+	font-size: 10vw;
+	margin-bottom: 0;
+}
+
+.js-greetings {
+	margin-top: 0;
+	font-size: 40px;
+	font-weight: 500;
+	letter-spacing: 0.2rem;
+}
+
+.js-toDoForm h1 {
+	font-weight: 400;
+}
+
+.js-toDoForm input {
+	width: 100%;
+	height: 40px;
+	outline: none;
+	background: transparent;
+	border: solid #ffffff;
+	border-width: 0 0 3px;
+	font-size: 25px;
+	color: #ffffff;
+}
+
+ul.js-toDoList {
+	width: 520px;
+	padding: 0;
+}
+
+.js-toDoList li {
+	list-style: none;
+	margin: 10px 0;
+	text-align: center;
+	font-size: 30px;
+}
+
+.js-toDoList button {
+	background: transparent;
+	outline: none;
+	border: solid 2px #ffffff;
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: 400;
+	color: #ffffff;
+	height: 40px;
+	width:  40px;
+	float: right;
+}
+
+.form,
+.greetings {
+	display: none;
+}
+
+.showing {
+	display: block;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.bgImage {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	animation:  fadeIn .5s linear;
+}
+
